@@ -41,7 +41,7 @@ RUN groupadd -o -g 9117 jackett \
 
 # Global config
 #RUN mkdir -p /config/
-#ADD config /config/
+ADD config /config/
 
 
 # Start scripts
